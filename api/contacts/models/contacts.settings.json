@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contacts"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "phone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Address": {
+      "type": "string"
+    }
+  }
+}

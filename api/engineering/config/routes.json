@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/engineerings",
+      "handler": "engineering.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/engineerings/count",
+      "handler": "engineering.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/engineerings/:id",
+      "handler": "engineering.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/engineerings",
+      "handler": "engineering.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/engineerings/:id",
+      "handler": "engineering.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/engineerings/:id",
+      "handler": "engineering.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
